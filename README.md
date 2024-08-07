@@ -2,23 +2,23 @@
 
 ![C++](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/213px-ISO_C%2B%2B_Logo.svg.png)
 
-***Basic to Expert level concepts implemented using the C++ language.***
+**_Basic to Expert level concepts implemented using the C++ language._**
 
-The following topics are covered in my repository : 
+The following topics are covered in my repository :
 
 :white_check_mark: CPP001_First_Program.cpp - First program, display "Hello World !"
 
 :white_check_mark: CPP002_Variables.cpp - Introduction to variables
 
-:white_check_mark: CPP003_Variables_Types.cpp - Getting familier with the datatypes 
+:white_check_mark: CPP003_Variables_Types.cpp - Getting familier with the datatypes
 
 :white_check_mark: CPP004_Input.cpp - Console Input / Output
 
 :white_check_mark: CPP005_Arithmetic_Assignment_Increment_Decrement_Operators.cpp - Arithmetic, Assignment, Increment, Decrement Operators
 
-:white_check_mark: CPP006_Relational_Operators.cpp - Relational Operators 
+:white_check_mark: CPP006_Relational_Operators.cpp - Relational Operators
 
-:white_check_mark: CPP007_Logical_Operators.cpp - Logical Operators 
+:white_check_mark: CPP007_Logical_Operators.cpp - Logical Operators
 
 :white_check_mark: CPP008_Calculator_Exercise.cpp - Simple Calculator Program
 
@@ -48,7 +48,7 @@ The following topics are covered in my repository :
 
 :white_check_mark: CPP021_ReferenceVariables.cpp - Reference Variables
 
-:white_check_mark: CPP022_ReferenceVariables_Functions.cpp - Reference Variables and Functions 
+:white_check_mark: CPP022_ReferenceVariables_Functions.cpp - Reference Variables and Functions
 
 :white_check_mark: CPP023_Pointers.cpp - Pointers
 
@@ -66,7 +66,7 @@ The following topics are covered in my repository :
 
 :white_check_mark: CPP030_Structure.cpp - Structures
 
-:white_check_mark: CPP031_Classes.cpp - Classes, Constructors, Destructors 
+:white_check_mark: CPP031_Classes.cpp - Classes, Constructors, Destructors
 
 :white_check_mark: CPP032_StaticVariables_StaticFunctions.cpp - Static variables and functions
 
@@ -88,5 +88,4 @@ The following topics are covered in my repository :
 
 :white_check_mark: CPP041_Namespaces.cpp - Understanding Namespaces
 
-
-***Contributed with  :blue_heart:  by Tridib***
+**_Contributed with :blue_heart: by Tridib_**

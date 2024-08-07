@@ -6,11 +6,11 @@
 #include <iostream>
 using namespace std;
 
-main()
+int main()
 {
     double var1, var2;
 
-    beginning:
+beginning:
 
     cout << "Enter first number: " << endl;
     cin >> var1;
@@ -28,28 +28,25 @@ main()
 
     cin >> decision;
 
-
-
-    switch(decision)
+    switch (decision)
     {
-        case '+':
-            cout << var1 << " + " << var2 << " = " << (var1 + var2) << endl;
-            break;
-        case '-':
-            cout << var1 << " - " << var2 << " = " << (var1 - var2) << endl;
-            break;
-        case '*':
-            cout << var1 << " * " << var2 << " = " << (var1 * var2) << endl;
-            break;
-        case '/':
-            if (var2) //var2 != 0
-                cout << var1 << " / " << var2 << " = " << (var1 / var2) << endl;
-            else
-                cout << "You can't divide by 0" << endl;
-            break;
-        default:
-            cout << "You typed wrong character";
-
+    case '+':
+        cout << var1 << " + " << var2 << " = " << (var1 + var2) << endl;
+        break;
+    case '-':
+        cout << var1 << " - " << var2 << " = " << (var1 - var2) << endl;
+        break;
+    case '*':
+        cout << var1 << " * " << var2 << " = " << (var1 * var2) << endl;
+        break;
+    case '/':
+        if (var2) // var2 != 0
+            cout << var1 << " / " << var2 << " = " << (var1 / var2) << endl;
+        else
+            cout << "You can't divide by 0" << endl;
+        break;
+    default:
+        cout << "You typed wrong character";
     }
 
     char decision2;
@@ -59,4 +56,6 @@ main()
 
     if (decision2 == 'y' || decision2 == 'Y')
         goto beginning;
+
+    return 0;
 }

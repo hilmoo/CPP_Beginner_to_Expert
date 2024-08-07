@@ -7,11 +7,12 @@
 using namespace std;
 class Box
 {
-    private:
-        int length;
-    public:
-        Box(): length(0) { }
-        friend int printLength(Box);
+private:
+    int length;
+
+public:
+    Box() : length(0) {}
+    friend int printLength(Box);
 };
 int printLength(Box b)
 {
@@ -21,6 +22,6 @@ int printLength(Box b)
 int main()
 {
     Box b;
-    cout<<"Length of box: "<< printLength(b)<<endl;
+    cout << "Length of box: " << printLength(b) << endl;
     return 0;
 }

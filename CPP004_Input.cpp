@@ -1,15 +1,15 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
-main()
+int main()
 {
     // cin - console input
     int a;
     cin >> a;
     cout << "Variable name a = " << a << endl;
 
-    string name,surname;
+    string name, surname;
 
     cout << "Enter your name : ";
     cin >> name;
@@ -17,6 +17,7 @@ main()
     cout << "Enter your surname : ";
     cin >> surname;
 
-    cout << "Welcome "<<name<<" "<<surname<<endl;
+    cout << "Welcome " << name << " " << surname << endl;
 
+    return 0;
 }

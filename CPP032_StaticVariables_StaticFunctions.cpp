@@ -3,37 +3,37 @@
  * Created:   02.02.2020
  **/
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class StaticFunction
 {
-   public:
+public:
     static int my_var;
     static void display()
     {
-        cout<<"Static member function"<<endl;
+        cout << "Static member function" << endl;
     }
 };
 
-int StaticFunction::my_var=50;
+int StaticFunction::my_var = 50;
 
 void demo()
 {
     static int count = 1;
-    cout <<"Value of count is - "<< count <<endl;
+    cout << "Value of count is - " << count << endl;
     count++;
 }
 
 int main()
 {
-    for (int i=1; i<=5; i++)
+    for (int i = 1; i <= 5; i++)
         demo();
 
     StaticFunction::display();
 
     StaticFunction ob;
-    cout <<"Value is : "<<ob.my_var<<endl;
+    cout << "Value is : " << ob.my_var << endl;
 
     return 0;
 }

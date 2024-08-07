@@ -3,7 +3,7 @@
  * Created:   03.03.2020
  **/
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 namespace A
@@ -16,13 +16,14 @@ namespace B
     int var = 40;
 }
 
-int main() {
+int main()
+{
     int var = 50;
-    //Accessing var from namespace std
-    cout<<var<<endl;
-    //Accessing var from namespace A
-    cout<<A::var<<endl;
-    //Accessing var from namespace B
-    cout<<B::var<<endl;
+    // Accessing var from namespace std
+    cout << var << endl;
+    // Accessing var from namespace A
+    cout << A::var << endl;
+    // Accessing var from namespace B
+    cout << B::var << endl;
     return 0;
 }

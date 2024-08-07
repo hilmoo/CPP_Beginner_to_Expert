@@ -3,45 +3,49 @@
  * Created:   02.02.2020
  **/
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class MyDetails {
+class MyDetails
+{
 
-    private:
-        short age;
-        int *p;
-    public:
+private:
+    short age;
+    int *p;
 
-        MyDetails() //Constructor
-        {
-            static int i=0;
-            cout<<"This constructor has been just invoked "<<++i<<" time"<<endl;
-            age=50;
+public:
+    MyDetails() // Constructor
+    {
+        static int i = 0;
+        cout << "This constructor has been just invoked " << ++i << " time" << endl;
+        age = 50;
 
-            p=new int[10];
-        }
+        p = new int[10];
+    }
 
-        ~MyDetails() //Destructor
-        {
-            static int j=0;
-            cout<<"This Destructor has been just invoked "<<++j<<" time"<<endl;
+    ~MyDetails() // Destructor
+    {
+        static int j = 0;
+        cout << "This Destructor has been just invoked " << ++j << " time" << endl;
 
-            delete [] p;
-        }
+        delete[] p;
+    }
 
-        void setAge(int value) {
-                if(value<0)
-                    age=0;
-                else
-                    age=value;
-        }
-        short getAge() {
-            return age;
-        }
+    void setAge(int value)
+    {
+        if (value < 0)
+            age = 0;
+        else
+            age = value;
+    }
+    short getAge()
+    {
+        return age;
+    }
 };
 
-int main() {
+int main()
+{
 
     MyDetails p1;
     MyDetails p2;
@@ -49,9 +53,8 @@ int main() {
     p1.setAge(-55);
     p2.setAge(20);
 
-    cout<<p1.getAge()<<endl;
-    cout<<p2.getAge()<<endl;
+    cout << p1.getAge() << endl;
+    cout << p2.getAge() << endl;
 
     return 0;
 }
-
